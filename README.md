@@ -2,17 +2,39 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+- Clone the repo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  ```bash
+  git clone https://github.com/Bilal-Sheikh/ByteBuddy---backend.git
+  ```
+  
+- Install dependencies:
+
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  ```
+  
+- Add your own HUGGING FACE API KEY in ```.env```:
+  
+  ```bash
+  HUGGINGFACE_API_KEY=xxxxxxxxx
+  ```
+  
+- (CORS settings) Add your extension origin url in ```app/api/chat/route.ts```:
+
+  ![image](https://github.com/Bilal-Sheikh/ByteBuddy---backend/assets/85779794/3d401933-c1ab-4f55-ad3c-0415e1f4a3be)
+
+
+- Run the development server:
+
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
