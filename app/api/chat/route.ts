@@ -34,9 +34,9 @@ export async function POST(req: Request) {
 	// Respond with the stream, enabling the client to consume the response
 	return new StreamingTextResponse(stream, {
 		headers: {
-			// "Access-Control-Allow-Origin": "*",
+			// Add your chrome-extension origin URL here
 			"Access-Control-Allow-Origin":
-				"chrome-extension://pgjkokahcceepmomkkkilpjaikkkgbcf",
+				"chrome-extension://emdidhbeiopefagjfbdbaiikigodkkmo",
 			"Access-Control-Allow-Methods": "POST",
 		},
 	});
